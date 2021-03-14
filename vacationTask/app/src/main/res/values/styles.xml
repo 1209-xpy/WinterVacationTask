@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ActivityTheme" parent="AppTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="m_progress_bar_style">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/layout_progress</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">2dip</item>
+        <item name="android:maxHeight">2dip</item>
+        <item name="android:mirrorForRtl">true</item>
+    </style>
+
+</resources>
